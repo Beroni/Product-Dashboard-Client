@@ -1,4 +1,9 @@
-## Frontend Getty.IO
+# Frontend Getty.IO
+
+<p align="center">
+  <img width="1000px" height="600px" src=".github/signin-page.png">
+</p>
+<hr>
 
 ### Challenge
 
