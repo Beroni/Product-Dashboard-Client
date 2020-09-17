@@ -37,7 +37,7 @@ describe('SignIn Page', () => {
     const passwordField = getByPlaceholderText('Password');
     const buttonElement = getByText('Login');
 
-    mockApi.onPost('/sessions').reply(201, {
+    mockApi.onPost('/sessions').reply(200, {
       user: {
         name: 'John Doe',
         email: 'johndoe@gmail.com',
