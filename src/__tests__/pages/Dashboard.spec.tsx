@@ -29,7 +29,7 @@ describe('Dashboard', () => {
     mockedHistoryPush.mockClear();
   });
 
-  it('should be able to go', async () => {
+  it('should be able to push to Product Dashboard Page', async () => {
     const { getByTestId } = render(<Dashboard />);
 
     const divElement = getByTestId('product-link');
@@ -41,7 +41,7 @@ describe('Dashboard', () => {
     });
   });
 
-  it('should be able to render de page', async () => {
+  it('should be able to Logout', async () => {
     const { getByTestId } = render(<Dashboard />);
 
     const buttonElement = getByTestId('logoff-button');
